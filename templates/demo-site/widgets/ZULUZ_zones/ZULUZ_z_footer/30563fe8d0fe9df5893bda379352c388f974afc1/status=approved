@@ -1,0 +1,23 @@
+<widgetStatus>
+<statusHistory>
+  <timeChanged>1392714564979</timeChanged>
+  <status>approved</status>
+  <comment>updated content</comment>
+  <userCode>null</userCode>
+  <ipAddress>10.0.1.176</ipAddress>
+</statusHistory>
+<statusHistory>
+  <timeChanged>1392714562084</timeChanged>
+  <status>pending</status>
+  <comment>updated content</comment>
+  <userCode>adm</userCode>
+  <ipAddress>10.0.1.176</ipAddress>
+</statusHistory>
+<statusHistory>
+  <timeChanged>1392701765062</timeChanged>
+  <status>edit</status>
+  <comment>Cloned from ZULUZ.zones.ZULUZ_z_responsiveHeader to ZULUZ.zones.ZULUZ_z_footer</comment>
+  <userCode>adm</userCode>
+  <ipAddress>10.0.1.176</ipAddress>
+</statusHistory>
+</widgetStatus>

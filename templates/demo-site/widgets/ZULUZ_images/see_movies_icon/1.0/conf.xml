@@ -1,0 +1,13 @@
+﻿<widget>
+  <widgetClass>tooltwist.wbd.CropImageWidget</widgetClass>
+  <idWithinRootWidget></idWithinRootWidget>
+  <description>See Movies</description>
+  <suffix>png</suffix>
+  <crop>N</crop>
+  <shrink>Y</shrink>
+  <cropX>0</cropX>
+  <cropY>0</cropY>
+  <cropWidth>251</cropWidth>
+  <cropHeight>166</cropHeight>
+  <tint>none</tint>
+</widget>

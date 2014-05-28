@@ -1,0 +1,13 @@
+﻿<widget>
+  <widgetClass>tooltwist.wbd.CropImageWidget</widgetClass>
+  <idWithinRootWidget></idWithinRootWidget>
+  <description>Axon 2 logo</description>
+  <suffix>png</suffix>
+  <crop>N</crop>
+  <shrink>Y</shrink>
+  <cropX>0</cropX>
+  <cropY>0</cropY>
+  <cropWidth>200</cropWidth>
+  <cropHeight>132</cropHeight>
+  <tint>none</tint>
+</widget>
