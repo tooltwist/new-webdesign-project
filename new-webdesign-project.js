@@ -68,8 +68,9 @@ file.walk(templateDir, function(obj, dirPath, dirs, files) {
 	// console.log("files = ", files);
 	
 	// Check the directory exists
-	var dir = dirPath.substring(templateDir.length);
-	var newdir = destinationDir + '/' + dir;
+	var dir = dirPath.substring(templateDir.length); // relative dir
+	dir = dir.replace(/ZULUZ/g, projectName); // convert to project name
+	var newdir = destinationDir + '/' + dir; // full path
 	if ( !fs.existsSync(newdir)) {
 		fs.mkdirSync(newdir);
 	}
@@ -79,8 +80,9 @@ file.walk(templateDir, function(obj, dirPath, dirs, files) {
 		var path = files[i];
 
 		// Get the new file name
-		var file = path.substring(templateDir.length);
-		var newfile = destinationDir + '/' + file;
+		var file = path.substring(templateDir.length); // relative path of file
+		file = file.replace(/ZULUZ/g, projectName); // convert to project name
+		var newfile = destinationDir + '/' + file; // full path
 		//		console.log('  ' + newfile);
 		
 		// Ignore some files
@@ -116,8 +118,8 @@ file.walk(templateDir, function(obj, dirPath, dirs, files) {
 			
 			// Text file, so copy it whilst replacing 'ZULUZ' with the project name
 			var contents = fs.readFileSync(path, 'utf-8');
-			//		contents = contents.replace(/ZULUZ/g, projectName);
-			contents = contents.replace(/ttdemo/g, 'ZULUZ');
+			contents = contents.replace(/ZULUZ/g, projectName);
+			// contents = contents.replace(/ttdemo/g, 'ZULUZ');
 			fs.writeFileSync(newfile, contents);
 		}		
 	}
