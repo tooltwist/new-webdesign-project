@@ -15,33 +15,6 @@
     <url></url>
     <useSSL>N</useSSL>
     <pageWidget>ZULUZ_pages.home_axon1</pageWidget>
-    <navpoint>
-      <id>10</id>
-      <newId>10</newId>
-      <type>page</type>
-      <label>Junk1</label>
-      <url></url>
-      <useSSL>N</useSSL>
-      <pageWidget>ZULUZ.pages.bootstrap</pageWidget>
-      <navpoint>
-        <id>12</id>
-        <newId>12</newId>
-        <type>page</type>
-        <label>New Navpoint</label>
-        <url></url>
-        <useSSL>N</useSSL>
-        <pageWidget>ZULUZ.pages.bootstrap</pageWidget>
-      </navpoint>
-    </navpoint>
-    <navpoint>
-      <id>11</id>
-      <newId>11</newId>
-      <type>page</type>
-      <label>Junk2</label>
-      <url></url>
-      <useSSL>N</useSSL>
-      <pageWidget>ZULUZ.pages.bootstrap2</pageWidget>
-    </navpoint>
   </navpoint>
   <navpoint>
     <id>2</id>
