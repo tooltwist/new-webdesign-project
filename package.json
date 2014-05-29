@@ -5,6 +5,7 @@
   "dependencies": {
     "walk": "*",
     "fs": "*",
-	"file": "*"
+    "file": "*",
+    "string": "*"
   }
 }
