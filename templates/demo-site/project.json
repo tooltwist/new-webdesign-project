@@ -1,0 +1,11 @@
+{
+        "tooltwist": "com.tooltwist:tooltwist:8.3.1-20140404",
+	"ttWbd": "com.tooltwist:ttWbd:8.3.1-20140404",
+        "ttStd": {
+			"type": "extension",
+			"location": "repo",
+			"group": "com.tooltwist",
+			"name": "ttStd",
+			"version": "8.3.1-20140404"
+		}
+}
